@@ -1,0 +1,21 @@
+# Temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Alteryx backup files
+*.bak
+
+# Virtual environments
+venv/
+.env
+
+*Copy.png

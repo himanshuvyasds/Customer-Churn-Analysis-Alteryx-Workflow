@@ -1,0 +1,118 @@
+﻿churn_id,customer_id,is_churned,churn_flag,days_since_churn,churn_date,churn_reason,churn_category,churn_risk_score,churn_probability,churn_revenue_impact_usd,customer_health_score
+CH00001,CUST00001,0,0,,,Not Churned,Not Applicable,59,0.59,0,33
+CH00002,CUST00002,0,0,,,Not Churned,Not Applicable,43.4,0.434,0,53
+CH00003,CUST00003,0,0,,,Not Churned,Not Applicable,50.4,0.504,0,46.9
+CH00004,CUST00004,0,0,,,Not Churned,Not Applicable,69.7,0.697,0,36.5
+CH00005,CUST00005,0,0,,,Not Churned,Not Applicable,37.1,0.371,0,65.7
+CH00006,CUST00006,0,0,,,Not Churned,Not Applicable,43.7,0.437,0,57
+CH00007,CUST00007,0,0,,,Not Churned,Not Applicable,24.7,0.247,0,63
+CH00008,CUST00008,0,0,,,Not Churned,Not Applicable,22.9,0.229,0,66.1
+CH00009,CUST00009,0,0,,,Not Churned,Not Applicable,83.3,0.833,0,31.3
+CH00010,CUST00010,0,0,,,Not Churned,Not Applicable,21.5,0.215,0,63.9
+CH00011,CUST00011,0,0,,,Not Churned,Not Applicable,36.2,0.362,0,60.4
+CH00012,CUST00012,0,0,,,Not Churned,Not Applicable,99,0.99,0,14.2
+CH00013,CUST00013,0,0,,,Not Churned,Not Applicable,24.3,0.243,0,75.5
+CH00014,CUST00014,0,0,,,Not Churned,Not Applicable,99,0.99,0,18.8
+CH00015,CUST00015,0,0,,,Not Churned,Not Applicable,8.6,0.086,0,80.1
+CH00016,CUST00016,0,0,,,Not Churned,Not Applicable,29.9,0.299,0,60.3
+CH00017,CUST00017,0,0,,,Not Churned,Not Applicable,40.1,0.401,0,54.2
+CH00018,CUST00018,0,0,,,Not Churned,Not Applicable,78.8,0.788,0,26.2
+CH00019,CUST00019,0,0,,,Not Churned,Not Applicable,90,0.9,0,13
+CH00020,CUST00020,0,0,,,Not Churned,Not Applicable,74.4,0.744,0,34.9
+CH00021,CUST00021,0,0,,,Not Churned,Not Applicable,32,0.32,0,56.2
+CH00022,CUST00022,0,0,,,Not Churned,Not Applicable,10,0.1,0,83.8
+CH00023,CUST00023,0,0,,,Not Churned,Not Applicable,82.5,0.825,0,31.9
+CH00024,CUST00024,0,0,,,Not Churned,Not Applicable,33.5,0.335,0,74.1
+CH00025,CUST00025,0,0,,,Not Churned,Not Applicable,82.1,0.821,0,16.4
+CH00026,CUST00026,0,0,,,Not Churned,Not Applicable,75.2,0.752,0,37.6
+CH00027,CUST00027,0,0,,,Not Churned,Not Applicable,99,0.99,0,2.8
+CH00028,CUST00028,0,0,,,Not Churned,Not Applicable,74.3,0.743,0,27.8
+CH00029,CUST00029,0,0,,,Not Churned,Not Applicable,32.4,0.324,0,55
+CH00030,CUST00030,0,0,,,Not Churned,Not Applicable,41.6,0.416,0,47.8
+CH00031,CUST00031,0,0,,,Not Churned,Not Applicable,99,0.99,0,5
+CH00032,CUST00032,0,0,,,Not Churned,Not Applicable,83.5,0.835,0,13.4
+CH00033,CUST00033,0,0,,,Not Churned,Not Applicable,55.3,0.553,0,54.3
+CH00034,CUST00034,1,1,166,2026-05-22,Price,Pricing,72,0.72,2541.46,22.5
+CH00035,CUST00035,1,1,45,2026-09-20,Product Fit,Product,72,0.72,782.04,31
+CH00036,CUST00036,0,0,,,Not Churned,Not Applicable,99,0.99,0,18.2
+CH00037,CUST00037,0,0,,,Not Churned,Not Applicable,65.5,0.655,0,50.9
+CH00038,CUST00038,0,0,,,Not Churned,Not Applicable,85,0.85,0,32.8
+CH00039,CUST00039,0,0,,,Not Churned,Not Applicable,99,0.99,0,4
+CH00040,CUST00040,0,0,,,Not Churned,Not Applicable,35.8,0.358,0,72.9
+CH00041,CUST00041,0,0,,,Not Churned,Not Applicable,56.7,0.567,0,49
+CH00042,CUST00042,0,0,,,Not Churned,Not Applicable,50.9,0.509,0,41.3
+CH00043,CUST00043,0,0,,,Not Churned,Not Applicable,99,0.99,0,12
+CH00044,CUST00044,0,0,,,Not Churned,Not Applicable,52.9,0.529,0,58.3
+CH00045,CUST00045,0,0,,,Not Churned,Not Applicable,62.2,0.622,0,38.1
+CH00046,CUST00046,0,0,,,Not Churned,Not Applicable,99,0.99,0,5.2
+CH00047,CUST00047,0,0,,,Not Churned,Not Applicable,70.6,0.706,0,44
+CH00048,CUST00048,0,0,,,Not Churned,Not Applicable,80.8,0.808,0,38.4
+CH00049,CUST00049,0,0,,,Not Churned,Not Applicable,96.8,0.968,0,26.9
+CH00050,CUST00050,0,0,,,Not Churned,Not Applicable,13,0.13,0,89.2
+CH00051,CUST00051,0,0,,,Not Churned,Not Applicable,34.4,0.344,0,71.2
+CH00052,CUST00052,0,0,,,Not Churned,Not Applicable,72.9,0.729,0,31.6
+CH00053,CUST00053,1,1,131,2026-06-26,Price,Pricing,99,0.99,4611.03,5.5
+CH00054,CUST00054,0,0,,,Not Churned,Not Applicable,48.3,0.483,0,54.3
+CH00055,CUST00055,0,0,,,Not Churned,Not Applicable,43.6,0.436,0,47.8
+CH00056,CUST00056,0,0,,,Not Churned,Not Applicable,66.5,0.665,0,36.9
+CH00057,CUST00057,0,0,,,Not Churned,Not Applicable,79.7,0.797,0,31.7
+CH00058,CUST00058,0,0,,,Not Churned,Not Applicable,33.5,0.335,0,73.6
+CH00059,CUST00059,1,1,136,2026-06-21,Product Fit,Product,74.5,0.745,205.55,26.4
+CH00060,CUST00060,1,1,18,2026-10-17,Competitor,Competition,72,0.72,1643.02,27.2
+CH00061,CUST00061,0,0,,,Not Churned,Not Applicable,26.9,0.269,0,73.3
+CH00062,CUST00062,0,0,,,Not Churned,Not Applicable,62.7,0.627,0,28
+CH00063,CUST00063,0,0,,,Not Churned,Not Applicable,60,0.6,0,44.2
+CH00064,CUST00064,0,0,,,Not Churned,Not Applicable,78.5,0.785,0,34.9
+CH00065,CUST00065,0,0,,,Not Churned,Not Applicable,64.5,0.645,0,40.4
+CH00066,CUST00066,0,0,,,Not Churned,Not Applicable,99,0.99,0,10.2
+CH00067,CUST00067,0,0,,,Not Churned,Not Applicable,35.6,0.356,0,69.1
+CH00068,CUST00068,0,0,,,Not Churned,Not Applicable,99,0.99,0,10
+CH00069,CUST00069,0,0,,,Not Churned,Not Applicable,16.1,0.161,0,80.7
+CH00070,CUST00070,0,0,,,Not Churned,Not Applicable,85.6,0.856,0,22.3
+CH00071,CUST00071,0,0,,,Not Churned,Not Applicable,47.5,0.475,0,39.9
+CH00072,CUST00072,0,0,,,Not Churned,Not Applicable,53,0.53,0,48.5
+CH00073,CUST00073,1,1,84,2026-08-12,Price,Pricing,72,0.72,3586.79,22
+CH00074,CUST00074,0,0,,,Not Churned,Not Applicable,57.8,0.578,0,55.2
+CH00075,CUST00075,0,0,,,Not Churned,Not Applicable,22.8,0.228,0,72.9
+CH00076,CUST00076,1,1,36,2026-09-29,Price,Pricing,83.1,0.831,6009.92,21.9
+CH00077,CUST00077,0,0,,,Not Churned,Not Applicable,81.3,0.813,0,26.3
+CH00078,CUST00078,0,0,,,Not Churned,Not Applicable,99,0.99,0,16.2
+CH00079,CUST00079,0,0,,,Not Churned,Not Applicable,87.2,0.872,0,16.1
+CH00080,CUST00080,0,0,,,Not Churned,Not Applicable,68.5,0.685,0,30.9
+CH00081,CUST00081,0,0,,,Not Churned,Not Applicable,93.9,0.939,0,15.1
+CH00082,CUST00082,0,0,,,Not Churned,Not Applicable,82.2,0.822,0,19.9
+CH00083,CUST00083,0,0,,,Not Churned,Not Applicable,32.8,0.328,0,69.4
+CH00084,CUST00084,0,0,,,Not Churned,Not Applicable,46.7,0.467,0,42.5
+CH00085,CUST00085,0,0,,,Not Churned,Not Applicable,93.9,0.939,0,25.3
+CH00086,CUST00086,1,1,34,2026-10-01,Competitor,Competition,72,0.72,321.76,29.8
+CH00087,CUST00087,0,0,,,Not Churned,Not Applicable,73.7,0.737,0,33.7
+CH00088,CUST00088,0,0,,,Not Churned,Not Applicable,62.8,0.628,0,31.6
+CH00089,CUST00089,0,0,,,Not Churned,Not Applicable,31.1,0.311,0,61.2
+CH00090,CUST00090,0,0,,,Not Churned,Not Applicable,68.2,0.682,0,42.8
+CH00091,CUST00091,0,0,,,Not Churned,Not Applicable,32.4,0.324,0,57.4
+CH00092,CUST00092,0,0,,,Not Churned,Not Applicable,99,0.99,0,4
+CH00093,CUST00093,0,0,,,Not Churned,Not Applicable,90.4,0.904,0,20.2
+CH00094,CUST00094,0,0,,,Not Churned,Not Applicable,44.9,0.449,0,45.3
+CH00095,CUST00095,0,0,,,Not Churned,Not Applicable,54,0.54,0,42.2
+CH00096,CUST00096,0,0,,,Not Churned,Not Applicable,78.1,0.781,0,27.7
+CH00097,CUST00097,0,0,,,Not Churned,Not Applicable,56.1,0.561,0,46.9
+CH00098,CUST00098,0,0,,,Not Churned,Not Applicable,13,0.13,0,81.2
+CH00099,CUST00099,0,0,,,Not Churned,Not Applicable,88.6,0.886,0,25.6
+CH00100,CUST00100,0,0,,,Not Churned,Not Applicable,49.1,0.491,0,59.4
+CH00101,CUST00101,0,0,,,Not Churned,Not Applicable,46.7,0.467,0,41.5
+CH00102,CUST00102,0,0,,,Not Churned,Not Applicable,94,0.94,0,13.5
+CH00103,CUST00103,0,0,,,Not Churned,Not Applicable,41.6,0.416,0,43.8
+CH00104,CUST00104,0,0,,,Not Churned,Not Applicable,81.3,0.813,0,14
+CH00105,CUST00105,0,0,,,Not Churned,Not Applicable,98,0.98,0,6.8
+CH00106,CUST00106,0,0,,,Not Churned,Not Applicable,83.8,0.838,0,27.1
+CH00107,CUST00107,1,1,84,2026-08-12,Poor Service,Service,78.6,0.786,1297.46,38.6
+CH00108,CUST00108,0,0,,,Not Churned,Not Applicable,51.3,0.513,0,56
+CH00109,CUST00109,1,1,52,2026-09-13,Price,Pricing,72,0.72,28.54,37.2
+CH00110,CUST00110,0,0,,,Not Churned,Not Applicable,62.3,0.623,0,47.8
+CH00111,CUST00111,1,1,143,2026-06-14,Poor Service,Service,99,0.99,3309.77,5
+CH00112,CUST00112,0,0,,,Not Churned,Not Applicable,21.2,0.212,0,80.1
+CH00113,CUST00113,0,0,,,Not Churned,Not Applicable,99,0.99,0,23
+CH00114,CUST00114,0,0,,,Not Churned,Not Applicable,49.6,0.496,0,40
+CH00115,CUST00115,0,0,,,Not Churned,Not Applicable,57.8,0.578,0,43.4
+CH00116,CUST00116,0,0,,,Not Churned,Not Applicable,45.7,0.457,0,61.5
+CH00117,CUST00117,1,1,163,2026-05-25,Competitor,Competition,72,0.72,4221.48,33

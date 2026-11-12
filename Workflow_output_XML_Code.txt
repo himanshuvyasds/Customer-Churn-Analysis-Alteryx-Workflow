@@ -1,0 +1,1551 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Churn_Analysis_Data..xlsx
+Query=`Customers$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_segment" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_country" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_city" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_age_months" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="Double" />
+            <Field name="signup_date" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="acquisition_channel" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_age_band" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="preferred_device" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+            <Field name="customer_status" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customers$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Customer_Churn_Analysis_Data..xlsx
+
+]]></AnnotationText>
+          <DefaultAnnotationText>Customer_Churn_Analysis_Data..xlsx
+Query=`Customer_Support$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="support_id" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="V_String" />
+            <Field name="customer_id" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="V_String" />
+            <Field name="satisfaction_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="Double" />
+            <Field name="satisfaction_level" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="V_String" />
+            <Field name="support_ticket_count" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="Double" />
+            <Field name="returns_count" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="Double" />
+            <Field name="support_interactions" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="Double" />
+            <Field name="feedback_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="Double" />
+            <Field name="support_channel" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Customer_Support$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Data_Dictionary$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Churn_Analysis_Data..xlsx
+Query=`Data_Dictionary$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table/Sheet" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Data_Dictionary$`" type="V_String" />
+            <Field name="Column" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Data_Dictionary$`" type="V_String" />
+            <Field name="Key Type" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Data_Dictionary$`" type="V_String" />
+            <Field name="Data Type" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Data_Dictionary$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Relationships$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Churn_Analysis_Data..xlsx
+Query=`Relationships$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Relationships$`" type="V_String" />
+            <Field name="Primary Key" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Relationships$`" type="V_String" />
+            <Field name="Relationship" size="255" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Customer_Churn_Analysis_Data..xlsx|||`Relationships$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Engagement.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="engagement_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="customer_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="emails_sent" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="emails_opened" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="emails_clicked" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="email_conversion_rate" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="social_media_engagement_score" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="loyalty_score" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+            <Field name="referral_count" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Churn_Labels.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="churn_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="customer_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="is_churned" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_flag" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="days_since_churn" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_date" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_reason" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_category" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_risk_score" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_probability" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="churn_revenue_impact_usd" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+            <Field name="customer_health_score" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Churn_Labels.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Purchase_Metrics.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="purchase_metric_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="customer_id" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="total_spend_usd" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="avg_order_value_usd" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="num_purchases" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="days_since_last_purchase" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="customer_lifetime_value_usd" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+            <Field name="last_purchase_date" size="254" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Purchase_Metrics.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_customer_id" selected="False" rename="Right_customer_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Final Join</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_50062c6e7e5142ef92b29c1cad461b3a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_6f9b2037833943f09de79241f7a00040~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="894" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"customer_id","customer_segment","customer_country","customer_city","customer_age_months","signup_date","acquisition_channel","customer_age_band","preferred_device","customer_status","satisfaction_score","satisfaction_level","support_ticket_count","returns_count","support_interactions","feedback_score","support_channel","total_spend_usd","avg_order_value_usd","num_purchases","days_since_last_purchase","customer_lifetime_value_usd","last_purchase_date","is_churned","churn_flag","days_since_churn","churn_date","churn_reason","churn_category","churn_risk_score","churn_probability","churn_revenue_impact_usd","customer_health_score"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_cc92e96747984a3c81c5a28f91d55f2a~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1086" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="customer_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="990" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="customer_id" selected="True" />
+            <Field field="customer_segment" selected="True" />
+            <Field field="customer_country" selected="True" />
+            <Field field="customer_city" selected="True" />
+            <Field field="signup_date" selected="True" />
+            <Field field="acquisition_channel" selected="True" />
+            <Field field="customer_age_band" selected="True" />
+            <Field field="preferred_device" selected="True" />
+            <Field field="customer_status" selected="True" />
+            <Field field="satisfaction_level" selected="True" />
+            <Field field="support_channel" selected="True" />
+            <Field field="total_spend_usd" selected="True" />
+            <Field field="avg_order_value_usd" selected="True" />
+            <Field field="num_purchases" selected="True" />
+            <Field field="days_since_last_purchase" selected="True" />
+            <Field field="customer_lifetime_value_usd" selected="True" />
+            <Field field="last_purchase_date" selected="True" />
+            <Field field="emails_sent" selected="True" />
+            <Field field="emails_opened" selected="True" />
+            <Field field="emails_clicked" selected="True" />
+            <Field field="email_conversion_rate" selected="True" />
+            <Field field="social_media_engagement_score" selected="True" />
+            <Field field="loyalty_score" selected="True" />
+            <Field field="referral_count" selected="True" />
+            <Field field="is_churned" selected="True" />
+            <Field field="churn_flag" selected="True" />
+            <Field field="days_since_churn" selected="True" />
+            <Field field="churn_date" selected="True" />
+            <Field field="churn_reason" selected="True" />
+            <Field field="churn_category" selected="True" />
+            <Field field="churn_risk_score" selected="True" />
+            <Field field="churn_probability" selected="True" />
+            <Field field="churn_revenue_impact_usd" selected="True" />
+            <Field field="customer_health_score" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Auto Correcting Schema</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="9" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_segment" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_country" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_city" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_age_months" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="signup_date" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Date" />
+            <Field name="acquisition_channel" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_age_band" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="preferred_device" size="7" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_status" size="7" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="satisfaction_score" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="satisfaction_level" size="6" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="support_ticket_count" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="returns_count" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="support_interactions" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="feedback_score" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="support_channel" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="total_spend_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="avg_order_value_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="num_purchases" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="days_since_last_purchase" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="customer_lifetime_value_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="last_purchase_date" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Date" />
+            <Field name="emails_sent" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="emails_opened" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="emails_clicked" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="email_conversion_rate" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Double" />
+            <Field name="social_media_engagement_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="loyalty_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="referral_count" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\DataSet\Engagement.csv" type="Byte" />
+            <Field name="is_churned" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="churn_flag" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="days_since_churn" size="3" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_date" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="churn_reason" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_category" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_risk_score" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="churn_probability" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="churn_revenue_impact_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="customer_health_score" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="294" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="customer_id" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="customer_id" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="customer_id" />
+            </JoinInfo>
+            <JoinInfo connection="#4">
+              <Field field="customer_id" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_customer_id" selected="True" />
+                <SelectField field="Input_#1_customer_segment" selected="True" />
+                <SelectField field="Input_#1_customer_country" selected="True" />
+                <SelectField field="Input_#1_customer_city" selected="True" />
+                <SelectField field="Input_#1_customer_age_months" selected="True" />
+                <SelectField field="Input_#1_signup_date" selected="True" />
+                <SelectField field="Input_#1_acquisition_channel" selected="True" />
+                <SelectField field="Input_#1_customer_age_band" selected="True" />
+                <SelectField field="Input_#1_preferred_device" selected="True" />
+                <SelectField field="Input_#1_customer_status" selected="True" />
+                <SelectField field="Input_#2_support_id" selected="True" />
+                <SelectField field="Input_#2_customer_id" selected="True" rename="Input_#2_customer_id" />
+                <SelectField field="Input_#2_satisfaction_score" selected="True" />
+                <SelectField field="Input_#2_satisfaction_level" selected="True" />
+                <SelectField field="Input_#2_support_ticket_count" selected="True" />
+                <SelectField field="Input_#2_returns_count" selected="True" />
+                <SelectField field="Input_#2_support_interactions" selected="True" />
+                <SelectField field="Input_#2_feedback_score" selected="True" />
+                <SelectField field="Input_#2_support_channel" selected="True" />
+                <SelectField field="Input_#3_purchase_metric_id" selected="True" />
+                <SelectField field="Input_#3_customer_id" selected="True" rename="Input_#3_customer_id" />
+                <SelectField field="Input_#3_total_spend_usd" selected="True" />
+                <SelectField field="Input_#3_avg_order_value_usd" selected="True" />
+                <SelectField field="Input_#3_num_purchases" selected="True" />
+                <SelectField field="Input_#3_days_since_last_purchase" selected="True" />
+                <SelectField field="Input_#3_customer_lifetime_value_usd" selected="True" />
+                <SelectField field="Input_#3_last_purchase_date" selected="True" />
+                <SelectField field="Input_#4_engagement_id" selected="True" />
+                <SelectField field="Input_#4_customer_id" selected="True" rename="Input_#4_customer_id" />
+                <SelectField field="Input_#4_emails_sent" selected="True" />
+                <SelectField field="Input_#4_emails_opened" selected="True" />
+                <SelectField field="Input_#4_emails_clicked" selected="True" />
+                <SelectField field="Input_#4_email_conversion_rate" selected="True" />
+                <SelectField field="Input_#4_social_media_engagement_score" selected="True" />
+                <SelectField field="Input_#4_loyalty_score" selected="True" />
+                <SelectField field="Input_#4_referral_count" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="customer_segment" selected="True" />
+            <SelectField field="customer_country" selected="True" />
+            <SelectField field="customer_city" selected="True" />
+            <SelectField field="customer_age_months" selected="True" />
+            <SelectField field="signup_date" selected="True" />
+            <SelectField field="acquisition_channel" selected="True" />
+            <SelectField field="customer_age_band" selected="True" />
+            <SelectField field="preferred_device" selected="True" />
+            <SelectField field="customer_status" selected="True" />
+            <SelectField field="support_id" selected="True" />
+            <SelectField field="satisfaction_score" selected="True" />
+            <SelectField field="satisfaction_level" selected="True" />
+            <SelectField field="support_ticket_count" selected="True" />
+            <SelectField field="returns_count" selected="True" />
+            <SelectField field="support_interactions" selected="True" />
+            <SelectField field="feedback_score" selected="True" />
+            <SelectField field="support_channel" selected="True" />
+            <SelectField field="purchase_metric_id" selected="True" />
+            <SelectField field="total_spend_usd" selected="True" />
+            <SelectField field="avg_order_value_usd" selected="True" />
+            <SelectField field="num_purchases" selected="True" />
+            <SelectField field="days_since_last_purchase" selected="True" />
+            <SelectField field="customer_lifetime_value_usd" selected="True" />
+            <SelectField field="last_purchase_date" selected="True" />
+            <SelectField field="engagement_id" selected="True" />
+            <SelectField field="emails_sent" selected="True" />
+            <SelectField field="emails_opened" selected="True" />
+            <SelectField field="emails_clicked" selected="True" />
+            <SelectField field="email_conversion_rate" selected="True" />
+            <SelectField field="social_media_engagement_score" selected="True" />
+            <SelectField field="loyalty_score" selected="True" />
+            <SelectField field="referral_count" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="486" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"customer_id","customer_segment","customer_country","customer_city","customer_age_months","signup_date","acquisition_channel","customer_age_band","preferred_device","customer_status","support_id","satisfaction_score","satisfaction_level","support_ticket_count","returns_count","support_interactions","feedback_score","support_channel","purchase_metric_id","total_spend_usd","avg_order_value_usd","num_purchases","days_since_last_purchase","customer_lifetime_value_usd","last_purchase_date"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Data cleaning
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="558" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="customer_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selecting Unique Data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_77dd43bf966b4b478e8fa69dfd4f9f62~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="774" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="support_id" selected="False" />
+            <SelectField field="purchase_metric_id" selected="False" />
+            <SelectField field="engagement_id" selected="False" />
+            <SelectField field="churn_id" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_243dbae80f8341298e1aad66602c8212~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1182" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([emails_sent]) OR [emails_sent] = 0 THEN 0&#xA;ELSE ([emails_opened]/[emails_sent])&#xA;ENDIF&#xA;" field="Email_Open_Rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF IsNull([emails_sent]) OR [emails_sent] = 0 THEN 0&#xA;ELSE [emails_clicked] / [emails_sent]&#xA;ENDIF" field="Email_Click_Rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [num_purchases] / [customer_age_months]&#xA;ENDIF" field="Purchase_Frequency" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [total_spend_usd] / [customer_age_months]&#xA;ENDIF" field="Average_monthly_Spend" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [support_ticket_count] / [customer_age_months]&#xA;ENDIF" field="Support_Issue_Rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF IsNull([days_since_last_purchase]) THEN &quot;Unknown&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 30 THEN &quot;Recent&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 60 THEN &quot;Moderate&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 90 THEN &quot;At Risk&quot;&#xA;ELSE &quot;Inactive&quot;&#xA;ENDIF" field="Recency_Category" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([customer_age_months]) THEN &quot;Unknown&quot;&#xA;ELSEIF [customer_age_months] &lt;= 3 THEN &quot;New Customer&quot;&#xA;ELSEIF [customer_age_months] &lt;= 12 THEN &quot;Growing Customer&quot;&#xA;ELSEIF [customer_age_months] &lt;= 24 THEN &quot;Established Customer&quot;&#xA;ELSE &quot;Long-Term Customer&quot;&#xA;ENDIF" field="Customer_Tenure_Category" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[New_Fields
+]]></AnnotationText>
+          <DefaultAnnotationText>Email_Open_Rate = IF IsNull([emails_sent]) OR [emails_sent] = 0 THEN 0
+ELSE ([em...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1206" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_558f8a2c548f49b7bd1ba61277004836~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="1254" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="customer_id" selected="True" />
+            <Field field="customer_segment" selected="True" />
+            <Field field="customer_country" selected="True" />
+            <Field field="customer_city" selected="True" />
+            <Field field="acquisition_channel" selected="True" />
+            <Field field="customer_age_band" selected="True" />
+            <Field field="preferred_device" selected="True" />
+            <Field field="customer_status" selected="True" />
+            <Field field="satisfaction_level" selected="True" />
+            <Field field="support_channel" selected="True" />
+            <Field field="days_since_churn" selected="True" />
+            <Field field="churn_date" selected="True" />
+            <Field field="churn_reason" selected="True" />
+            <Field field="churn_category" selected="True" />
+            <Field field="Recency_Category" selected="True" />
+            <Field field="Customer_Tenure_Category" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="9" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_segment" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_country" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_city" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_age_months" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="signup_date" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Date" />
+            <Field name="acquisition_channel" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_age_band" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="preferred_device" size="7" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="customer_status" size="7" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="satisfaction_score" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="satisfaction_level" size="6" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="support_ticket_count" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="returns_count" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="support_interactions" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="feedback_score" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+            <Field name="support_channel" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="total_spend_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="avg_order_value_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="num_purchases" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="days_since_last_purchase" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="customer_lifetime_value_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="last_purchase_date" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Date" />
+            <Field name="emails_sent" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="emails_opened" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="emails_clicked" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="email_conversion_rate" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Double" />
+            <Field name="social_media_engagement_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="loyalty_score" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="referral_count" source="File: C:\Users\himan\OneDrive\Desktop\alteryx work practice git\E-Commerce Input Data\Engagement.csv" type="Byte" />
+            <Field name="is_churned" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="churn_flag" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Byte" />
+            <Field name="days_since_churn" size="3" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_date" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="churn_reason" size="12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_category" size="14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="String" />
+            <Field name="churn_risk_score" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="churn_probability" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="churn_revenue_impact_usd" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="customer_health_score" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="Double" />
+            <Field name="Email_Open_Rate" source="Formula: IF IsNull([emails_sent]) OR [emails_sent] = 0 THEN 0&#xA;ELSE ([emails_opened]/[emails_sent])&#xA;ENDIF&#xA;" type="Double" />
+            <Field name="Email_Click_Rate" source="Formula: IF IsNull([emails_sent]) OR [emails_sent] = 0 THEN 0&#xA;ELSE [emails_clicked] / [emails_sent]&#xA;ENDIF" type="Double" />
+            <Field name="Purchase_Frequency" source="Formula: IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [num_purchases] / [customer_age_months]&#xA;ENDIF" type="Double" />
+            <Field name="Average_monthly_Spend" source="Formula: IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [total_spend_usd] / [customer_age_months]&#xA;ENDIF" type="Double" />
+            <Field name="Support_Issue_Rate" source="Formula: IF IsNull([customer_age_months]) OR [customer_age_months] &lt;= 0 THEN 0&#xA;ELSE [support_ticket_count] / [customer_age_months]&#xA;ENDIF" type="Double" />
+            <Field name="Recency_Category" size="8" source="Formula: IF IsNull([days_since_last_purchase]) THEN &quot;Unknown&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 30 THEN &quot;Recent&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 60 THEN &quot;Moderate&quot;&#xA;ELSEIF [days_since_last_purchase] &lt;= 90 THEN &quot;At Risk&quot;&#xA;ELSE &quot;Inactive&quot;&#xA;ENDIF" type="String" />
+            <Field name="Customer_Tenure_Category" size="20" source="Formula: IF IsNull([customer_age_months]) THEN &quot;Unknown&quot;&#xA;ELSEIF [customer_age_months] &lt;= 3 THEN &quot;New Customer&quot;&#xA;ELSEIF [customer_age_months] &lt;= 12 THEN &quot;Growing Customer&quot;&#xA;ELSEIF [customer_age_months] &lt;= 24 THEN &quot;Established Customer&quot;&#xA;ELSE &quot;Long-Term Custome..." type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1374" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="acquisition_channel" action="GroupBy" rename="acquisition_channel" />
+            <SummarizeField field="is_churned" action="Sum" rename="Sum_is_churned" />
+            <SummarizeField field="customer_id" action="CountDistinct" rename="CountDistinct_customer_id" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>cust_segmentwise_churn</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1374" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="acquisition_channel" action="GroupBy" rename="acquisition_channel" />
+            <SummarizeField field="customer_id" action="CountDistinct" rename="CountDistinct_customer_id" />
+            <SummarizeField field="is_churned" action="Sum" rename="Sum_is_churned" />
+            <SummarizeField field="total_spend_usd" action="Avg" rename="Avg_total_spend_usd" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Avg.Total Spend</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1374" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="acquisition_channel" action="GroupBy" rename="acquisition_channel" />
+            <SummarizeField field="total_spend_usd" action="Avg" rename="Avg_total_spend_usd" />
+            <SummarizeField field="customer_lifetime_value_usd" action="Avg" rename="Avg_customer_lifetime_value_usd" />
+            <SummarizeField field="num_purchases" action="Avg" rename="Avg_num_purchases" />
+            <SummarizeField field="is_churned" action="Sum" rename="Sum_is_churned" />
+            <SummarizeField field="customer_id" action="CountDistinct" rename="CountDistinct_customer_id" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Aggregation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1470" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [CountDistinct_customer_id] = 0 THEN 0&#xA;ELSE [Sum_is_churned] / [CountDistinct_customer_id]&#xA;ENDIF" field="Segment_churn_rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[Segment_churn_rate]*100" field="Segment_churn%" size="8" type="Double" enabled="true" />
+            <FormulaField expression="Round([Segment_churn_rate],.001)" field="Segment_churn_rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="Round([Segment_churn%],.001)" field="Segment_churn%" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Segment_churn_rate</AnnotationText>
+          <DefaultAnnotationText>Segment_churn_rate = IF [CountDistinct_customer_id] = 0 THEN 0
+ELSE [Sum_is_chur...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1470" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [CountDistinct_customer_id] = 0 Then 0&#xA;Else [Sum_is_churned]/[CountDistinct_customer_id]&#xA;ENDIF" field="Channel_Churn_Rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[Channel_Churn_Rate]*100" field="Channel_churn%" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF [Avg_total_spend_usd]&gt;=5500 THEN &quot;High Spend&quot;&#xA;ELSEIF [Avg_total_spend_usd]&gt;=5000 THEN &quot;Medium Spend&quot;&#xA;ELSE &quot;Low Spend&quot;&#xA;ENDIF" field="Spend_Category" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Round([Channel_Churn_Rate],.001)" field="Channel_Churn_Rate" size="8" type="Double" enabled="true" />
+            <FormulaField expression="Round([Avg_total_spend_usd],.001)" field="Avg_total_spend_usd" size="8" type="Double" enabled="true" />
+            <FormulaField expression="Round([Channel_churn%],.001)" field="Channel_churn%" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Channel_Churn_Rate</AnnotationText>
+          <DefaultAnnotationText>Channel_Churn_Rate = IF [CountDistinct_customer_id] = 0 Then 0
+Else [Sum_is_chur...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1566" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Avg_customer_lifetime_value_usd] &gt;= 11000 THEN &quot;High Value&quot;&#xA;ELSEIF [Avg_customer_lifetime_value_usd] &gt;= 8000 THEN &quot;Medium Value&quot;&#xA;ELSE &quot;Low Value&quot;&#xA;ENDIF" field="CLV" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[CLV 
+]]></AnnotationText>
+          <DefaultAnnotationText>CLV = IF [Avg_customer_lifetime_value_usd] &gt;= 11000 THEN "High Value"
+ELSEIF [Av...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1662" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1662" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1662" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1806" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="acquisition_channel" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="acquisition_channel" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="acquisition_channel" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_Sum_is_churned" selected="True" rename="Input_#2_Sum_is_churned" />
+                <SelectField field="Input_#2_CountDistinct_customer_id" selected="True" rename="Input_#2_CountDistinct_customer_id" />
+                <SelectField field="Input_#1_acquisition_channel" selected="True" rename="Input_#1_acquisition_channel" />
+                <SelectField field="Input_#3_acquisition_channel" selected="True" rename="Input_#3_acquisition_channel" />
+                <SelectField field="Input_#3_Avg_total_spend_usd" selected="True" rename="Input_#3_Avg_total_spend_usd" />
+                <SelectField field="Input_#3_Sum_is_churned" selected="True" rename="Input_#3_Sum_is_churned" />
+                <SelectField field="Input_#3_CountDistinct_customer_id" selected="True" rename="Input_#3_CountDistinct_customer_id" />
+                <SelectField field="Input_#2_customer_segment" selected="True" rename="Input_#2_customer_segment" />
+                <SelectField field="Input_#3_customer_segment" selected="True" rename="Input_#3_customer_segment" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Multiple Join</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1926" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="customer_segment" selected="True" />
+            <SelectField field="acquisition_channel" selected="True" />
+            <SelectField field="CountDistinct_customer_id" selected="True" />
+            <SelectField field="Sum_is_churned" selected="True" />
+            <SelectField field="Avg_total_spend_usd" selected="True" />
+            <SelectField field="Channel_Churn_Rate" selected="True" />
+            <SelectField field="Channel_churn%" selected="True" />
+            <SelectField field="Spend_Category" selected="True" />
+            <SelectField field="Input_#2_customer_segment" selected="False" />
+            <SelectField field="Input_#2_Sum_is_churned" selected="False" />
+            <SelectField field="Input_#2_CountDistinct_customer_id" selected="False" />
+            <SelectField field="Segment_churn_rate" selected="True" />
+            <SelectField field="Segment_churn%" selected="False" />
+            <SelectField field="Input_#3_customer_segment" selected="False" />
+            <SelectField field="Input_#3_Avg_total_spend_usd" selected="False" />
+            <SelectField field="Avg_customer_lifetime_value_usd" selected="True" />
+            <SelectField field="Avg_num_purchases" selected="True" />
+            <SelectField field="Input_#3_Sum_is_churned" selected="False" />
+            <SelectField field="Input_#3_CountDistinct_customer_id" selected="False" />
+            <SelectField field="CLV" selected="True" />
+            <SelectField field="Input_#1_acquisition_channel" selected="False" />
+            <SelectField field="Input_#3_acquisition_channel" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="2046" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="customer_segment" selected="True" />
+            <Field field="acquisition_channel" selected="True" />
+            <Field field="Channel_churn%" selected="True" />
+            <Field field="Spend_Category" selected="True" />
+            <Field field="CLV" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="acquisition_channel" size="14" source="Summarize: GroupBy - acquisition_channel" type="String" />
+            <Field name="CountDistinct_customer_id" source="Summarize: CountDistinct - customer_id" type="Int64" />
+            <Field name="Sum_is_churned" source="Summarize: Sum - is_churned" type="Int64" />
+            <Field name="Avg_total_spend_usd" source="Formula: Round([Avg_total_spend_usd],.001)" type="Double" />
+            <Field name="Channel_Churn_Rate" source="Formula: Round([Channel_Churn_Rate],.001)" type="Double" />
+            <Field name="Channel_churn%" source="Formula: Round([Channel_churn%],.001)" type="Double" />
+            <Field name="Spend_Category" size="10" source="Formula: IF [Avg_total_spend_usd]&gt;=5500 THEN &quot;High Spend&quot;&#xA;ELSEIF [Avg_total_spend_usd]&gt;=5000 THEN &quot;Medium Spend&quot;&#xA;ELSE &quot;Low Spend&quot;&#xA;ENDIF" type="String" />
+            <Field name="Segment_churn_rate" source="Formula: Round([Segment_churn_rate],.001)" type="Double" />
+            <Field name="Avg_customer_lifetime_value_usd" source="Formula: Round([_CurrentField_], 0.01)" type="Double" />
+            <Field name="Avg_num_purchases" source="Formula: Round([_CurrentField_], 0.01)" type="Double" />
+            <Field name="CLV" size="12" source="Formula: IF [Avg_customer_lifetime_value_usd] &gt;= 11000 THEN &quot;High Value&quot;&#xA;ELSEIF [Avg_customer_lifetime_value_usd] &gt;= 8000 THEN &quot;Medium Value&quot;&#xA;ELSE &quot;Low Value&quot;&#xA;ENDIF" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2022" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\himan\AppData\Local\Temp\Alteryx\Engine_26296_cf102a771f1b43ab9499deae096dd574_\Engine_26296_80525a7b2df64aadbe41b0abf185b174~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2238" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\Users\himan\OneDrive\Desktop\alteryx work practice git\Customer_Churn_Anlysis_Alteryx_Workflow\workflow_Output.yxmd</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>workflow_Output.yxmd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="702" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">34</Value>
+          <Value name="validation pct">33</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sampling</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1470" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Avg_total_spend_usd" />
+            <Field name="Avg_customer_lifetime_value_usd" />
+            <Field name="Avg_num_purchases" />
+            <Field name="Sum_is_churned" selected="False" />
+            <Field name="CountDistinct_customer_id" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>Round([_CurrentField_], 0.01)</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Double" size="8" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Round multi-feilds</AnnotationText>
+          <DefaultAnnotationText>Round([_CurrentField_], 0.01)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Unique" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Duplicates" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Duplicates" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflo_output</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="505bc340-7493-4dc0-a8ea-d3f99068ffba" />
+      <Telemetry>
+        <PreviousWorkflowId value="c8d292c7-9215-47fd-8445-d762da4546fb" />
+        <OriginWorkflowId value="c172298c-f2cd-438b-82e8-a8477a210b02" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
